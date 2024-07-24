@@ -4,9 +4,9 @@ import os
 w = open('config.json', 'w+')
 w.write('{')
 w.write('\n')
-w.write('    "authToken": "'+os.getenv('BOT_TOKEN')+'",')
+w.write('    "authToken": "'+os.getenv('7355006985:AAEY8ijg4CP-8GgcliRGJja87Tby78QT7To')+'",')
 w.write('\n')
-w.write('    "owner": '+os.getenv('OWNER_ID'))
+w.write('    "owner": '+os.getenv('5976437467'))
 w.write('\n')
 w.write('}')
 '''
@@ -30,4 +30,4 @@ LINK_URL = 'https://api.sunnxt.com/user/v4/device/validate'
 MEDIA_URL = 'https://api.sunnxt.com/content/v3/media/{}/'
 LICENSE_URL = 'https://api.sunnxt.com/licenseproxy/v3/modularLicense/'
 
-PRESETS = [1080, 720]
+PRESETS = [1080, 720 ,480 ,360 ,240]
